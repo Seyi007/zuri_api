@@ -4,6 +4,10 @@ from datetime import datetime
 
 app = Flask(__name__)
 
+@app.route('/', methods=['GET'])
+def home():
+  return "Welcome! kindly use th api service at /api"
+
 @app.route('/api', methods=['GET'])
 def get_item():
   """Retrieves all data of the item with the slack_name and track param"""

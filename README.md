@@ -16,5 +16,5 @@ This is a simple backend api project which processes a get request of two query 
 
 To use api do:
 
-- use `(http://127.0.0.1:5000/api?slack_name=name&track=track)`
+- use `(https://zuri-api.vercel.app/api?slack_name=seyi007&track=backend)`
 - assign your name into `slack_name` variable and your track into `track` variable

@@ -27,7 +27,7 @@ def get_item():
      "github_repo_url": github_repo_url,
      "status_code": 200,
   }
-  return jsonify({'res': res})
+  return jsonify(res)
 
 if __name__ == '__main__':
     app.run(debug=True)
